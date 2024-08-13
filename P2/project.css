@@ -1,0 +1,127 @@
+body {
+    background-color: #f4d04e;
+}
+
+.main {
+    text-align: center;
+    width: 25rem;
+    height: 34rem;
+    background: white;
+    border-radius: 23px;
+    margin: 3rem auto 0;
+    filter: drop-shadow(10px 10px 0px black);
+    border: 1px solid black;
+}
+
+.img1 {
+    margin-top: 1.5rem;
+    border-radius: 10px;
+}
+
+.title {
+    background-color: #f4d04e;
+    display: inline;
+    position: relative;
+    right: 125px;
+    font-family: "Vazir";
+    font-weight: bold;
+    top: 25px;
+    padding: .25rem .95rem;
+    border-radius: 8px;
+}
+
+.date {
+    font-family: "Vazir";
+    font-weight: 500;
+    font-size: 0.9rem;
+    margin-top: 0.6rem;
+    position: relative;
+    right: 94px;
+}
+
+.t_paragraph {
+    font-family: "Vazir";
+    font-size: 1.5rem;
+    font-weight: 900;
+    position: relative;
+    margin-top: 0.6rem;
+    right: 32px;
+    cursor: pointer;
+}
+
+.t_paragraph:hover {
+    color: #f4d04e;
+}
+
+.paragraph{
+    margin-top: 0.6rem;
+    font: 100 1rem / 1.7 "Vazir";
+    padding: 0 1.5rem;
+    text-align: left;
+    position: relative;
+    left: 5px;
+    margin-bottom: 0.5rem;
+}
+
+.profile {
+    text-align: left;
+    margin-left: 1.7rem;
+}
+
+.img2 {
+    width: 2.2rem;
+    height: auto;
+    border-radius: 100%;
+}
+
+.name { 
+    position: relative;
+    bottom: 12px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.8rem;
+    font-weight: 800;
+    left: 6px;
+}
+
+@media (max-width: 880px) {
+    .main {
+        margin: 1rem auto;
+        height: 32rem;
+    }
+    .img1 {
+        margin-top: 1rem;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .main {
+        height: 32rem;
+        width: 17rem;
+        margin: 1rem auto;
+    }
+    .title {
+        margin: 0 10.5rem 0 .95rem;
+        right: 0;
+    }
+    .img1 {
+        width: 90%;
+    }
+    .date {
+        margin-right: 5.35rem;
+        right: 0;
+    }
+    .t_paragraph {
+        left: 0;
+        right: 0;
+        margin-left: 1.2rem;
+        text-align: left;
+    }
+    .paragraph {
+        left: 0;
+        padding: 0 1rem 0 1.18rem;
+    }
+    .profile {
+        margin-left: 1rem;
+    }
+}
